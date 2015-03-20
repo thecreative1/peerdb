@@ -1,0 +1,439 @@
+#btn {
+	margin-top: 5px;
+}
+
+#logoutbutton {
+	margin-bottom: 10px;
+	margin-top: -2.5px; 
+}
+
+table {
+	background: #fff;
+}
+
+th, td, label, input{
+	text-align: left;
+	color: #000;
+	font-weight: normal;
+}
+
+.table>tbody>tr>td {
+	/*border-top: none;*/
+	width: 100%;
+}
+
+label {
+	float: left;
+	width: 100%;
+}
+
+h3 {
+	text-align: left;
+}
+
+#button2,#button3,#button4,#button5,#button6 {
+	display: block;
+	clear: both;
+}
+
+.scrollable-menu {
+	height: auto;
+	max-height: 10em;
+	overflow-x: 200;
+}
+
+.active {
+	/*border-bottom: 10px solid #f9f9f9;*/
+	margin-top: 0px;
+	/* The shadow effect was achieved by ammending the code from:;
+	http://stackoverflow.com/questions/24444020/box-shadow-only-on-right-and-left */
+	/**box-shadow: -6px 0px 10px -5px rgba(86, 61, 124, 1), 6px 0px 10px -5px rgba(86, 61, 124, 1);*/
+	border-right: 2px solid #e1e1e8;
+	border-left: 2px solid #e1e1e8;
+	z-index: 10;
+}
+
+.glyphicon-remove-circle {
+	color: #d9534f;
+	font-size: 20px;
+}
+
+.glyphicon-ok-circle {
+	color: #5cb85c;
+	font-size: 20px;
+}
+
+li {
+	margin-bottom: auto;
+}
+
+.nav-tabs {
+	height:50px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: none;
+}
+
+#welcomemessage {
+	float: right;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+#logout {
+	float: right;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+#topsearchpanel {
+	margin-top: 0px;
+	border-top: none;
+}
+
+.topbuttons {
+	margin-top: 5px;
+}
+
+#numbofgrps {
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+#creationcontent {
+	width: 100%;
+}
+
+.panel-body {
+	padding-top:30px
+}
+
+.input-group {
+	margin-bottom: 25px
+}
+
+.form-group {
+	margin-top:10px
+}
+
+.horizontal-line-break {
+	border-top: 1px solid #6f5499;
+	color: black;
+}
+
+#mini-text {
+	padding-top:15px;
+	font-size:85%
+}
+
+#signupbox {
+	display:none;
+	margin-top:50px
+}
+
+#login-heading {
+	float:right;
+	font-size: 85%;
+	position: relative;
+	top:-10px
+}
+
+#loginbox {
+	margin-top:50px
+}
+
+.nav {
+	background-color: #eee;
+}
+
+.navbar-brand {
+	font-family: nova-cut, sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.text-muted {
+	margin: 20px 0;
+	color: #555;
+}
+
+.container-footer {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+
+p {
+	display: block;
+	color: #555;
+}
+
+#outer-container {
+	min-height: 100%;
+	height: 100%;
+	display: block;
+	margin: auto;
+}
+
+.footer-content {
+	margin-right: 20px;
+}
+
+#copyright {
+	float: right;
+}
+
+.icon-bar {
+	color: black;
+}
+
+#inner-container {
+	background-color: #f9f9f9;
+	height: 100%;
+	padding: 30px 15px;
+	/**border-top: 0px solid #6f5499;
+	margin-top: -10px; 
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;*/
+}
+
+/* This raises the placement of the containers so that it
+looks like tabs are being oppened/active */
+#inner-container, #outer-container {
+	margin-top: -3px; 
+	border-top: 1px solid #6f5499;
+	min-height: 100vh;
+	border-bottom: 2px solid #f9f9f9;
+}
+
+#outer-container {
+
+}
+
+.star-rating-on {
+	background-position: 0 -32px !important;
+}
+
+.rating-cancel {
+	visibility: hidden;
+}
+
+.star {
+	margin-right: 5px;
+}
+
+#submit-button {
+	float: right;
+}
+
+#wrapper {
+	min-height: 100%;
+    height: auto !important;
+	margin-bottom: 0px;
+}
+
+#wrapper:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+}
+
+#footer, .wrapper:after {
+  height: 60px; 
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.text {
+	color: black;
+	text-align: left;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.button-style {
+	/* Taken from bootstrp.min.css to make the button appear smaller */
+	margin-bottom: 10px;
+	margin-top: -2.5px;
+	padding: 6px 12px;
+	border-radius: 4px;
+	-webkit-align-items: flex-start;
+	text-align: center;
+	cursor: default;
+}
+
+.comments {
+	text-align: center;
+	font-style: italic;
+}
+
+.comments-text {
+	font-size: 80%;
+}
+
+table {
+	table-layout: fixed;
+}
+
+.hide {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#searchbox {
+	max-width: 100%;
+	width: 90%;
+	float: left;
+	height: 30px;
+}
+
+#forumcontent {
+	width: 100%;
+}
+
+.student-name {
+	width: 10%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.student-message {
+	width: 65%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.date-time {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.chat-content {
+	width: 100%;
+	padding: 6px 12px 6px 12px;
+}
+
+.bs-docs-header, .bs-docs-masthead {
+	color: #555;
+}
+
+.search-form {
+    border-radius: 30px 0px 0px 30px;
+}
+
+.search-btn {
+    border-radius: 0px 30px 30px 0px;
+    cursor:pointer;
+}
+
+.bs-docs-masthead .btn {
+	padding: 2px 10px 2px 10px;
+}
+
+.input-group {
+	min-width: 100%;
+}
+
+#search-button{
+	width: none !important;
+}
+
+label.col-md-3.control-label {
+	text-align: left;
+}
+
+.panel.panel-default.container > div#uploadContent {
+    overflow: scroll;
+    width: 600px;
+}
+
+.right {
+	float: right;
+}
+
+#searchbutton {
+	margin-top: none;
+	margin-bottom: none;
+}
+
+.table>thead>tr>th {
+	vertical-align: middle;
+}
+
+/**
+
+.star-ctr {
+    display: inline-block;
+    position: relative;
+}
+
+.star-ctr ul {
+    white-space: nowrap;
+    list-style: none outside none;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.star-fg {
+    top: 0;
+    position: absolute;
+}
+
+.star-ctr li {
+    display: inline-block;
+}
+
+.star-ctr a > span {
+    font-size: 1.5em;
+}
+
+.star-bg a > span {
+    color: silver
+}
+
+.star-fg a > span {
+    color: #FFD633;
+    -webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: black;
+}
+
+*/
+
+/* Following code fills the background color with a bootstrap gradient,
+ammended from the original:
+http://stackoverflow.com/questions/25636685/how-to-implement-getbootsrap-com-css-purple-banner */
+ @media (min-width: 768px) {
+            .bs-docs-masthead {
+                padding: 80px 0;
+            }
+        }
+
+        .form-inline .input-group .input-group-addon, .form-inline .input-group .input-group-btn, .form-inline .input-group .form-control {
+        	width
+        }
+
+        .bs-docs-masthead, .bs-docs-header {
+            position: relative;
+            padding: 0px 15px;
+            background-color: #6f5499;
+            background-image: -webkit-gradient(linear,left top,left bottom,from(#563d7c),to(#6f5499));
+            background-image: -webkit-linear-gradient(top,#563d7c 0,#6f5499 100%);
+            background-image: -o-linear-gradient(top,#563d7c 0,#6f5499 100%);
+            background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
+            background-repeat: repeat-x;
+        }
